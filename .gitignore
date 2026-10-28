@@ -1,0 +1,9 @@
+# Ignore files directly in the vault root.
+/*
+# Keep all directories and their contents.
+!/*/
+# Track this ignore configuration.
+!/.gitignore
+
+# Plugin bundles contain embedded OAuth credentials; keep local only.
+**/.obsidian/plugins/remotely-save/main.js
